@@ -1,9 +1,9 @@
 FROM debian:buster-slim
 
-LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
-      description="Minha imagem modificada do nginx"
-      empresa="curso treinaweb"
-      portal="irisroques.github.io"
+LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>" \
+      description="Minha imagem modificada do nginx" \
+      empresa="curso treinaweb" \
+      portal="irisroques.github.io" 
 
 ENV NGINX_VERSION   1.16.1
 ENV NJS_VERSION     0.3.8
